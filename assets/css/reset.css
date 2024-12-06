@@ -1,0 +1,45 @@
+/* Reset básico para margens, padding e bordas */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Listas sem estilo padrão */
+ul, ol {
+    list-style: none;
+}
+
+/* Links sem sublinhado e herdam cor */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Imagens responsivas */
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Botões sem estilo padrão */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Tabelas consistentes */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Fonte e espaçamento padrão */
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}

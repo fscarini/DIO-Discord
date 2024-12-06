@@ -1,0 +1,93 @@
+header{
+    background-image: url('../../assets/img/header-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28rem;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 46rem;
+    gap: 18px;
+}
+
+.header-title{
+    font-family: 'Luckiest Guy', 'Open Sans';
+    font-weight: 400;
+    font-size: 3.5rem;
+    width: 19rem;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header-description{
+    color: #FFFFFF;
+    font-weight: 400;
+    text-align: center;
+    padding: 8px;
+}
+
+.header-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.download{
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 28px;
+    font-weight: 400;
+}
+
+.navigator{
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 28px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 430px){
+    header{
+        height: 50vh;
+    }
+
+    .header-container{
+        gap: 8px;
+    }
+
+    .header-title{
+        font-size: 2rem;
+    }
+    
+    .header-title, 
+    .header-description{
+        padding: 8px;
+        margin: 0px 12px 0 12px;
+        align-self: flex-start;
+        text-align: left;
+    }
+
+  .header-buttons{
+    flex-direction: column;
+    padding: 12px;
+  }
+
+
+  .download,
+  .navigator{
+    padding: 1rem 4rem;
+  }
+
+
+}
