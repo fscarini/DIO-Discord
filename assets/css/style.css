@@ -136,6 +136,25 @@ header{
     font-weight: 800;
 }
 
+.tecnology{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+
+.tecnology-title{
+    font-family: 'Luckiest Guy', Arial, Helvetica, sans-serif;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.tecnology-description{
+    margin-top: 18px;
+    max-width: 60%;
+}
+
 .presentation,
 .benefits,
 .community,
@@ -165,8 +184,8 @@ header{
     }
 
   .header-buttons{
-    flex-direction: column;
     padding: 12px;
+    flex-direction: column;
   }
 
   .download,
@@ -210,4 +229,8 @@ header{
       .community-title{
         font-size: 1.5rem;
       }
+
+      .tecnology-description{
+        max-width: 100%;
+    }
 }
