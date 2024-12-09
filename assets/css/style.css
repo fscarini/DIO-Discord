@@ -81,12 +81,35 @@ header{
 }
 
 .presentation-title{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 800;
 }
 
 .presentation-description{
     font-weight: 400;
+}
+
+.benefits{
+    background-color: #F6F6F6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits-content{
+    width: 22rem;
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.benefits-title{
+    font-size: 2.3rem;
+    font-weight: 800;
 }
 
 @media screen and (max-width: 500px){
@@ -120,15 +143,32 @@ header{
     padding: 1rem 4rem;
   }
 
+  .section-image{
+    max-width: 85%;
+}
+
 }
 
 @media screen and (max-width: 1030px) {
+
     .presentation-content{
         justify-content: flex-start;
         height: 15rem;
       }
     
       .presentation-title{
+        font-size: 1.5rem;
+      }
+
+      .benefits{
+        flex-direction: column-reverse;
+      }
+
+      .benefits-content{
+        align-items: flex-start;
+      }
+
+      .benefits-title{
         font-size: 1.5rem;
       }
 }
