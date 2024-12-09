@@ -162,6 +162,20 @@ header{
     padding: 1rem;
 }
 
+svg{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer{
+    padding: 1rem;
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 500px){
     header{
         height: 70vh;
