@@ -35,7 +35,7 @@ header{
     padding: 8px;
 }
 
-.header-buttons{
+.header-buttons{  
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -44,17 +44,19 @@ header{
 
 .download{
     background-color: #FFFFFF;
-    padding: 15px;
+    padding: 1em;
     border-radius: 28px;
     font-weight: 400;
+    text-align: center;
 }
 
 .navigator{
     color: #FFFFFF;
     background-color: #000000;
-    padding: 15px;
+    padding: 1rem;
     border-radius: 28px;
     font-weight: 400;
+    text-align: center;
 }
 
 .presentation{
@@ -110,6 +112,35 @@ header{
 .benefits-title{
     font-size: 2.3rem;
     font-weight: 800;
+}
+
+.community{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.community-content{
+    width: 22rem;
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.community-title{
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.presentation,
+.benefits,
+.community,
+.tecnology{
+    padding: 1rem;
 }
 
 @media screen and (max-width: 500px){
@@ -169,6 +200,14 @@ header{
       }
 
       .benefits-title{
+        font-size: 1.5rem;
+      }
+
+      .community-content{
+        align-items: flex-start;
+      }
+
+      .community-title{
         font-size: 1.5rem;
       }
 }
